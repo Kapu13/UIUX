@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #b4bde1;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+/* About Section */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.about .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .describe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Pain Point Section */
+.painpoint {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.painpoint .point {
+  background-color: #ffffff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.painpoint .point h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.painpoint .point p {
+  margin: 0.5rem 0 0;
+  color: #666;
+}
+
+.persona {
+  margin: 20px;
+  text-align: center;
+}
+
+.persona img {
+  width: 80%;
+}
+
+.journey {
+  margin: 20px;
+  text-align: center;
+}
+
+.journey img {
+  width: 80%;
+}
+
+/* low Section */
+.storyboard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.story {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.story img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Paper Section */
+.paper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.pap {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pap img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.digital {
+  margin: 20px;
+  text-align: center;
+}
+
+.digital img {
+  width: 50%;
+}
+
+.low {
+  margin: 20px;
+  text-align: center;
+}
+
+.low img {
+  width: 50%;
+}
+
+.mockup {
+  margin: 20px;
+  text-align: center;
+}
+
+.mockup img {
+  width: 50%;
+}
+
+/* Paper Section */
+.high {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.highf {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.highf img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+}
