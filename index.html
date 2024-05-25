@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>One Page Portfolio</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <h1>Hi, I am Kalpana Rai</h1>
+  </div>
+</header>
+
+<section id="portfolio" class="case-study">
+    <div class="container">
+      <h1>Portfolio</h1>
+      <div class="image-grid">
+        <a href="portfolio.html">
+          <img src="Image/app.jpg" alt="Portfolio Image">
+        </a>
+      </div>
+      <p>A cinima sseat booking mibile app</p>
+    </div>
+</section>
+  
+
+<section id="about" class="about-section">
+  <div class="container">
+    <h1>About Me</h1>
+    <p>I am a studend at Gyalpozhing College of Information Technology.</p>
+    <p>I'm a website Designer</p>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h1>Contact Me</h1>
+    <p>*975 17842836</p>
+    <p>kalpana7017rai@gmail.com</p>
+  </div>
+</section>
+
+<script>
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
